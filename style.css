@@ -1,0 +1,187 @@
+.card--container {
+    box-sizing: border-box;
+    padding: 12px 12px 0px;
+    margin: 10px 0;
+    position: relative;
+    display: block;
+    width: 588.5px;
+    height: auto;
+    border: 0.1px solid #636466;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1px);
+}
+
+.card-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.respondent--identity {
+    display: flex;
+    flex-direction: row;
+}
+
+.respondent--image img {
+    width: 36px;
+    height: 36px;
+}
+
+.respondent--identity__detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.repondent-name-action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.respondent--name {
+    color: #282829;
+    font-size: 13px;
+}
+
+.separator {
+    margin: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-action {
+    color: #2e69ff;
+    font-size: 13px;
+}
+
+.respondent--description {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    color: #636466;
+}
+
+.question {
+    box-sizing: border-box;
+    color: #282829;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.answer--bold {
+    color: #282829;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.answer p {
+    font-size: 15px;
+}
+
+.answer > img {
+    width: 100%;
+}
+
+.answer--statistic {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.statistic {
+    display: flex;
+    flex-direction: row;
+}
+
+.view--statictic,
+.view--upvote,
+.answer--indexes {
+    display: flex;
+    flex-direction: row;
+}
+
+.view--counter,
+.upvote--counter,
+.anwer--index,
+.total--answer {
+    color: #636466;
+    font-size: 13px;
+}
+
+.view--title,
+.index--title {
+    margin: 0 5px;
+    color: #696969;
+    font-size: 13px;
+}
+
+.card-status,
+.card-actions,
+.readers--vote,
+.upvote {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-status {
+    padding: 3px 0;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.readers--vote,
+.upvote {
+    align-items: center;
+}
+
+.upvote {
+    box-sizing: border-box;
+    font: inherit;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+.readers--vote {
+    border: 1px solid #636466;
+    border-radius: 50px;
+    width: 192.25px;
+    height: 30px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upvote svg {
+    padding: 0px 5px 0px 8px;
+}
+
+.downvote {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border-left: 1px solid #636466;
+    padding: 0px 10px 0px 8px;
+}
+
+.comment--action,
+.share--action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.card-more-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.read--more {
+    color: #939598;
+}
